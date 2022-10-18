@@ -51,13 +51,17 @@ table {
 MY STYLES 
 =========================*/
 
-body {
-    background-color: #aad4cf;
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-
+.nav {
     background-color: #d4e9e7;
     width: 1025px;
     margin: 0 auto;
+}
+
+body {
+    background-color: #aad4cf;
+	font-family: Arial, Helvetica, sans-serif;
 }
