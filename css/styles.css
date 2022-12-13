@@ -31,9 +31,11 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -62,23 +64,83 @@ h1 {
 }
 
 header {
-	margin: auto;
+	margin-left: 60px;
 }
 
 .container {
     background-color: #d4e9e7;
     width: 1025px;
-    margin: 0 auto;
-	position:relative
-	border-right: ;
+    margin-left: 60px;
+	position: relative;
 }
 
-.home {
-	display: inline-block;
-	border-right: black;
+nav ul li{
+    text-align: center;
+	background-color: #cee9e6;
+    width: 100%;
+}
+
+nav ul li a{
+    color: black;
+    width: 30%;
+    padding: 0 90px; 
+    text-decoration: none;
+    font-size: 22px;
+	font-weight: 300px;
+    border-right: 1px solid black;
 }
 
 body {
     background-color: #aad4cf;
 	font-family: Arial, Helvetica, sans-serif;
+	background-color: #aad4cf;
 }
+
+.title {
+	font-weight: 350px;
+	font-size: 35px;
+	padding-bottom: 15px;
+}
+
+article {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.Sub {
+	font-weight:200;
+	font-size: 28px;
+}
+
+.Learn {
+	font-weight:200;
+	font-size: 28px;
+	padding-left: 15px;
+	padding-top: 30px;
+
+}
+
+.text {
+	padding-bottom: 30px;
+	
+}
+
+form {
+	border-style: groove;
+	border: 1px solid black;
+    padding: 20px 10px 10px;
+}
+
+#bform {
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #D4E9E7;
+    border: 1px solid black;
+    color: black;
+    padding: 7px 10px 7px;
+  }
+
+  footer {
+  text-align: right;
+  }
