@@ -9,15 +9,15 @@
 </head>
 <body>
     <header>
-        <img src="images/lone-starfish-wide.jpg" alt="Lone Starfish">
+        <img class="img" src="images/lone-starfish-wide.jpg" alt="Lone Starfish">
         <h1>Lone Starfish</h1>
     </header>
        <div class="container">
     <nav class="nav">
       <ul>
-        <li><a href="Home">HOME</a></li>
-        <li><a href="Story">STORY</a></li>
-        <li><a href="Contact">CONTACT</a></li>
+        <li class="home"><a href="Home">HOME</a></li>
+        <li class="story"><a href="Story">STORY</a></li>
+        <li class="contact"><a href="Contact">CONTACT</a></li>
       </ul>
     </nav>
        </div>
@@ -49,13 +49,13 @@
 
             <form action="Contact" method="post">
                 <label for="name">Your Name</label></br>
-                <input id="name"></br>
+                <input style="width: 870px;" id="name"></br>
                 <label for="email">Your Email</label></br>
-                <input id="email"></br>
+                <input style="width: 870px;" id="email"></br>
                 <label for="message">Your Message</label></br>
-                <textarea id="message" name="message"></textarea><br>
+                <textarea style="height: 90px; width: 870px;" id="message" name="message"></textarea><br>
 
-                <p>Would you like to visit the Starfish?</p>
+                <p class="visit">Would you like to visit the Starfish?</p>
                 <label for="Yes">Yes</label>
                 <input type="radio" id="yes" name="musictime" value="0-1">
                 <label for="No">No</label>
@@ -69,7 +69,8 @@
     </main>
 
     <footer>
-        <div class="container"> &copy; Lone Starfish.</div>
+        <div class="container"></div> &copy; Lone Starfish.
     </footer>
+    </body>
 </body>
 </html>
