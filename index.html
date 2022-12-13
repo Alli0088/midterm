@@ -11,6 +11,7 @@
     <header>
         <img src="images/lone-starfish-wide.jpg" alt="Lone Starfish">
         <h1>Lone Starfish</h1>
+    </header>
        <div class="container">
     <nav class="nav">
       <ul>
@@ -21,41 +22,54 @@
     </nav>
        </div>
 
-    </header>
+
     
     <main>
         <div class="container">
             <article>
-                <h2>Life of a Starfish</h2>
-                <p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.
+                <h2 class="title">Life of a Starfish</h2>
+                <img class="star" src="images/lone-starfish.jpg" alt="Lone Starfish" width="250">
+                <p class="text">Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.
 
-            <h2>Facts About Starfish</h2>
+            <h2 class="Sub">Facts About Starfish</h2>
             
-            Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. 
+            <oul>
+               <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
             
-            Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.
+               <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
             
-            Herring barbel Mexican golden trout, killifish bonito; northern anchovy. 
+               <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
             
-            Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</p>
-            <button>Send</button>
+               <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
+            </ul>
+        </p>
             </article>
 
-            <form>
-                <p>This is another paragraph</p>
-                <label>Your Name</label>
-                <input>This is an input box</input>
-                <label>Your Email</label>
-                <input>This is an input box</input>
-                <label>Your Message</label>
-                <input>This is an input box</input>
-                <button type="button" id="buttonform">Send</button>
+            <p class="Learn">Contact to learn more</p>
+
+            <form action="Contact" method="post">
+                <label for="name">Your Name</label></br>
+                <input id="name"></br>
+                <label for="email">Your Email</label></br>
+                <input id="email"></br>
+                <label for="message">Your Message</label></br>
+                <textarea id="message" name="message"></textarea><br>
+
+                <p>Would you like to visit the Starfish?</p>
+                <label for="Yes">Yes</label>
+                <input type="radio" id="yes" name="musictime" value="0-1">
+                <label for="No">No</label>
+                <input type="radio" id="no" name="musictime" value="2-3" checked>
+                <label for="Maybe">Maybe</label>
+                <input type="radio" id="maybe" name="musictime" value="4-5"></br>
+
+                <button type="button" id="bform">Send</button>
             </form>
     
     </main>
 
     <footer>
-        <div class="container"> Lone Starfish.</div>
+        <div class="container"> &copy; Lone Starfish.</div>
     </footer>
 </body>
 </html>
